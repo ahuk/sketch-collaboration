@@ -4,14 +4,14 @@ A repo to test-drive design+code collaboration with Sketch where the core .sketc
 # Set up your own design repo
 For a more detailed explanation of the thinking and working of the scripts, please see [this blog post](http://blog.blended.io)
 
-# What the scripts to push and pull do
+# What do the scripts do
 `upload.sh`
 1. Pull the latest changes from the repo
 2. Copy .sketch to .zip
-3. Extract the core `.sketch` data from the .zip and deletes it
+3. Extract the core `.sketch` data from the .zip and delete it
 4. Remove the preview image (only full size images will be added to the index)
 5. Add the core data to the git index
-6. Commit and pushes the data
+6. Commit and push the data
 
 Please note that the .sketch file is itself will not be versioned. The file would only clog the repo and reduce speed.
 
