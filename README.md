@@ -1,11 +1,11 @@
 # sketch-collaboration
-A repo to test-drive design+code collaboration with Sketch where the core .sketch data is pushed/pulled to/from the repo.
+A repo to test-drive design+code collaboration with Sketch where the core .sketch data is pushed/pulled to/from the repo only.
 
+# Set up your own design repo
 For a more detailed explanation of the thinking and working of the scripts, please see [this blog post](http://blog.blended.io)
 
-# Scripts for push and pull
-
-upload.sh
+# What the scripts to push and pull do
+`upload.sh`
 1. Pull the latest changes from the repo
 2. Copy .sketch to .zip
 3. Extract the core `.sketch` data from the .zip and deletes it
@@ -15,7 +15,7 @@ upload.sh
 
 Please note that the .sketch file is itself will not be versioned. The file would only clog the repo and reduce speed.
 
-download.sh
+`download.sh`
 1. Pull the latest changes from the repo
 2. Zip the core Sketch data
 3. Copy .zip to .sketch and delete .zip
