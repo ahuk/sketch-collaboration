@@ -1,6 +1,8 @@
 # sketch-collaboration
 A repo to test-drive design+code collaboration with Sketch where the core .sketch data is pushed/pulled to/from the repo.
 
+For a more detailed explanation of the thinking and working of the scripts, please see [this blog post](http://blog.blended.io)
+
 # Scripts for push and pull
 
 upload.sh
