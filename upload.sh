@@ -13,7 +13,6 @@ unzip -o web-ui-kit-marcosilva.zip -d sketch-data/ && rm -Rf web-ui-kit-marcosil
 rm -Rf sketch-data/previews/
 
 git add sketch-data/
-git add sketch-data/pages/
 git add upload.sh
 git add download.sh
 
