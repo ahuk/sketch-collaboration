@@ -1,4 +1,4 @@
-# sketch-collaboration
+# Design & Code collaboration via git with Sketch
 A repo to test-drive design+code collaboration with Sketch where the core .sketch data is pushed/pulled to/from the repo only.
 
 # Set up your own design repo
