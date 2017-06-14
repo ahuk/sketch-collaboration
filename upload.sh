@@ -4,15 +4,16 @@
 git pull
 
 # Copy .sketch to .zip
-cp web-ui-kit-marcosilva.sketch web-ui-kit-marcosilva.zip
+cp sketch-test.sketch sketch-test.zip
 
 # Unzip the file and delete
-unzip -o web-ui-kit-marcosilva.zip -d sketch-data/ && rm -Rf web-ui-kit-marcosilva.zip
+unzip -o sketch-test.zip -d sketch-data/ && rm -Rf sketch-test.zip
 
 # Remove the preview file
 rm -Rf sketch-data/previews/
 
 git add sketch-data/
+git add sketch-data/pages/
 git add upload.sh
 git add download.sh
 
