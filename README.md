@@ -2,7 +2,7 @@
 A repo to test-drive design+code collaboration with Sketch where the core .sketch data is pushed/pulled to/from the repo only.
 
 # Set up your own design repo
-For a more detailed explanation of the thinking and working of the scripts, please see [this blog post](http://blog.blended.io)
+For a more detailed explanation of the thinking and working of the scripts, please see [this blog post](https://blog.blended.io/how-to-use-sketch-with-git-the-right-way/)
 
 # What do the scripts do
 `upload.sh`
